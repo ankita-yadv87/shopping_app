@@ -1,0 +1,89 @@
+.my_home {
+    background: linear-gradient(-45deg, #8f055c, #08553f, #140336);
+    background-size: 400% 400%;
+    outline-color: #140336;
+    animation: gradient-bg 20s ease infinite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+    margin-top: 2px;
+  }
+  
+  h1 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  
+  .my-text {
+    font-weight: bold;
+  }
+
+  @keyframes gradient-bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .my_button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #25b712; /* Blue-green color */
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* More curved border */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .my_button:hover {
+    background-color: #3498db; /* Darker shade on hover */
+    transform: scale(1.1); /* Zoom in effect on hover */
+  }
+  
+  .navbarList a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1.3rem 1rem;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbarItem a:hover {
+    color: #d2f010;
+    transform: scale(1.1); /* Zoom in effect on hover */
+  }
